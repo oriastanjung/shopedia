@@ -9,7 +9,7 @@ interface NavBarProps {}
 const NavBar: FC<NavBarProps> = ({}) => {
   const [showMenuMobile, setShowMenuMobile] = useState<boolean>(false);
   return (
-    <header className="w-full sticky top-0 z-40 py-6 px-3 lg:px-8 bg-white border-b">
+    <header className="w-full sticky top-0 z-40 py-6 px-3  lg:container lg:mx-auto 2xl:max-w-none 2xl:px-8 bg-white border-b">
       <nav className="flex flex-row items-center justify-between gap-20">
         <h1 className="font-semibold text-3xl">
           <Link href={"/"}>shopedia</Link>
